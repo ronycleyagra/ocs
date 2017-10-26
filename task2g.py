@@ -16,6 +16,6 @@ df2 = pd.read_sql(sql2, cnxn)
 cnxn.close()
 #print(df1)
 p=Bar(df1, values='qtd', label=['path','qtd'])
-output_file("graphs/barras1.html")
+output_file("barras1.html")
 show(p)
 
