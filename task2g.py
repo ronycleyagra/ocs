@@ -18,21 +18,3 @@ cnxn.close()
 p=Bar(df1, values='qtd', label=['path','qtd'])
 output_file("graphs/barras1.html")
 show(p)
-
-# qtd1 = df1['path'].value_counts()
-# qtd1.plot(kind='bar', figsize=(20,5), grid=True, rot=0, color='blue', legend=False)
-# plt1.title('Quantidade de participantes por evento')
-# plt1.xlabel('Quantidade de participantes')
-# plt1.savefig('/home/rony/PycharmProjects/ocs/screens/registrations.jpg', dpi=None, facecolor = 'w', edgecolor = 'w', orientation = 'portrait', papertype = None, format = None, transparent = False, bbox_inches = None, pad_inches = 0.1, frameon = None)
-# plt1.show()
-#
-# qtd2 = df2['path'].value_counts()
-# qtd2.plot(kind='bar', figsize=(20,5), grid=True, rot=0, color='blue', legend=False)
-# plt2.title('Quantidade de papers por evento')
-# plt2.xlabel('Quantidade de papers')
-# plt2.savefig('/home/rony/PycharmProjects/ocs/screens/papers.jpg', dpi=None, facecolor = 'w', edgecolor = 'w', orientation = 'portrait', papertype = None, format = None, transparent = False, bbox_inches = None, pad_inches = 0.1, frameon = None)
-# plt1.show()
-
-#/home/rony/pycharm/projetoocs/task1.py
-#plt.savefig('/home/rony/pycharm/aprendizadopandas/screens/tela1.jpg', dpi=None, facecolor = 'w', edgecolor = 'w', orientation = 'portrait', papertype = None, format = None, transparent = False, bbox_inches = None, pad_inches = 0.1, frameon = None)
-#plt.show()
