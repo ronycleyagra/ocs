@@ -7,7 +7,7 @@ import pandas.io.sql as psql
 import matplotlib.pyplot as plt1
 import matplotlib.pyplot as plt2
 
-cnxn = pymysql.connect(host='localhost',database='ocs',user='root',password='')
+cnxn = pymysql.connect(host='*',database='*',user='*',password='*')
 sql1 = "SELECT sc.path as path , re.registration_id FROM ocs.registrations re, ocs.sched_confs sc WHERE re.sched_conf_id = sc.sched_conf_id ;"
 df1 = pd.read_sql(sql1, cnxn)
 sql2 = "SELECT sc.path as path , pa.paper_id FROM ocs.papers pa, ocs.sched_confs sc WHERE sc.sched_conf_id = pa.sched_conf_id ;"
