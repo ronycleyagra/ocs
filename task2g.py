@@ -18,3 +18,4 @@ cnxn.close()
 p=Bar(df1, values='qtd', label=['path','qtd'])
 output_file("graphs/barras1.html")
 show(p)
+
